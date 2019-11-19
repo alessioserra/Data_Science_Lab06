@@ -15,7 +15,6 @@ from sklearn.model_selection import KFold
 # Exercise 1
 dataset = load_wine()
 X = dataset["data"]
-print(X[0])
 y = dataset["target"]
 feature_names = dataset["feature_names"]
 print("Computed")
