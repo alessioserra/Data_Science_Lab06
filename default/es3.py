@@ -8,6 +8,7 @@ from sklearn.model_selection._split import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics.classification import classification_report
 import math
+from sklearn.ensemble import RandomForestClassifier
 
 # EXERCISE 1
 dataset = fetch_openml("mnist_784")
@@ -59,3 +60,8 @@ reports = randomForest.predict(X_test, trees, y_test)
 
 for report in reports:
     print(report)
+    
+#EXERCISE 4
+"""???"""
+rf = RandomForestClassifier(n_estimators = 10, int(max_features=math.sqrt(len(X)))
+                            
