@@ -63,5 +63,4 @@ for report in reports:
     
 #EXERCISE 4
 """???"""
-rf = RandomForestClassifier(n_estimators = 10, int(max_features=math.sqrt(len(X)))
-                            
+rf = RandomForestClassifier(n_estimators = 10, int(max_features=math.sqrt(len(X))))                         
